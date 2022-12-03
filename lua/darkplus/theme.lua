@@ -364,7 +364,7 @@ theme.set_highlights = function()
     hl(0, "StatusLineTermNC", { fg = c.line, bg = 'NONE' })
 
     -- WinBar
-    hl(0, "WinBar", { fg = c.vivid_blue, bg = 'NONE', bold = true })
+    hl(0, "WinBar", { fg = c.yellow, bg = 'NONE', bold = true })
     hl(0, "WinBarNC", { fg = c.gray, bg = 'NONE' })
     hl(0, "WinBarError", { fg = c.error, bg = 'NONE', italic = true, bold = true })
 
