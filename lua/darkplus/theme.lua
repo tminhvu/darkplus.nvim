@@ -296,7 +296,7 @@ theme.set_highlights = function()
     -- NvimTree
     hl(0, "NvimTreeFolderIcon", { link = 'Directory' })
     hl(0, "NvimTreeIndentMarker", { fg = c.context, bg = 'NONE' })
-    hl(0, "NvimTreeNormal", { fg = c.fg, bg = c.alt_bg })
+    hl(0, "NvimTreeNormal", { fg = c.fg, bg = c.alt_bg, bold = true })
     hl(0, "NvimTreeVertSplit", { fg = c.alt_bg, bg = c.alt_bg })
     hl(0, "NvimTreeFolderName", { link = 'Directory' })
     hl(0, "NvimTreeOpenedFolderName", { fg = c.folder_blue, bg = 'NONE', bold = true, italic = true, })
@@ -317,7 +317,7 @@ theme.set_highlights = function()
     hl(0, "NvimTreeExecFile", { fg = '#9FBA89', bg = 'NONE' })
 
     -- StatusLine
-    hl(0, "StatusLine", { fg = c.light_gray, bg = c.alt_bg, bold = true })
+    hl(0, "StatusLine", { fg = c.light_gray, bg = c.statusline_bg, bold = true })
     hl(0, "StatusLineNC", { fg = c.line, bg = c.bg })
     hl(0, "StatusLineSeparator", { fg = c.line, bg = 'NONE' })
     hl(0, "StatusLineTerm", { fg = c.line, bg = 'NONE' })
