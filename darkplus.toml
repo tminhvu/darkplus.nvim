@@ -264,17 +264,17 @@ markdownFootnote = 'orange'
 markdownFootnoteDefinition = 'orange'
 markdownEscape = 'yellow'
 
-[Whichkey]
-WhichKey = 'purple'
-WhichKeySeperator = 'green'
-WhichKeyGroup = 'blue'
-WhichKeyDesc = 'fg'
-WhichKeyFloat = '- alt_bg'
+#[Whichkey]
+#WhichKey = 'purple'
+#WhichKeySeperator = 'green'
+#WhichKeyGroup = 'blue'
+#WhichKeyDesc = 'fg'
+#WhichKeyFloat = '- alt_bg'
 
 [Git]
-SignAdd = 'sign_add'
-SignChange = 'sign_change'
-SignDelete = 'sign_delete'
+#SignAdd = 'sign_add'
+#SignChange = 'sign_change'
+#SignDelete = 'sign_delete'
 GitSignsAdd = 'sign_add'
 GitSignsChange = 'sign_change'
 GitSignsDelete = 'sign_delete'
@@ -347,16 +347,16 @@ LspReferenceRead = '- reference'
 LspReferenceText = '- reference'
 LspReferenceWrite = '- reference'
 
-IlluminatedWordRead = 'link:LspReferenceRead'
-IlluminatedWordText = 'link:LspReferenceText'
-IlluminatedWordWrite = 'link:LspReferenceWrite'
+#IlluminatedWordRead = 'link:LspReferenceRead'
+#IlluminatedWordText = 'link:LspReferenceText'
+#IlluminatedWordWrite = 'link:LspReferenceWrite'
 
 LspCodeLens = 'context - i'
 LspCodeLensSeparator = 'context - i'
 
-[Quickscope]
-QuickScopePrimary = '#ff007c - u'
-QuickScopeSecondary = '#00dfff - u'
+#[Quickscope]
+#QuickScopePrimary = '#ff007c - u'
+#QuickScopeSecondary = '#00dfff - u'
 
 [Telescope]
 TelescopeSelection = '- ui2_blue'
@@ -394,37 +394,42 @@ NvimTreeSymlink = 'cyan'
 NvimTreeRootFolder = 'fg - b'
 NvimTreeExecFile = '#9FBA89'
 
-[Lir]
-LirFloatNormal = 'fg alt_bg'
-LirDir = 'link:Directory'
-LirSymLink = 'cyan'
-LirEmptyDirText = 'gray - i'
+#[Lir]
+#LirFloatNormal = 'fg alt_bg'
+#LirDir = 'link:Directory'
+#LirSymLink = 'cyan'
+#LirEmptyDirText = 'gray - i'
 
-[Buffer]
-BufferCurrent = 'fg bg'
-BufferCurrentIndex = 'fg bg'
-BufferCurrentMod = 'info bg'
-BufferCurrentSign = 'hint bg'
-BufferCurrentTarget = 'red bg b'
-
-BufferVisible = 'fg bg'
-BufferVisibleIndex = 'fg bg'
-BufferVisibleMod = 'info bg'
-BufferVisibleSign = 'gray bg'
-BufferVisibleTarget = 'red bg b'
-
-BufferInactive = 'gray alt_bg'
-BufferInactiveIndex = 'gray alt_bg'
-BufferInactiveMod = 'info alt_bg'
-BufferInactiveSign = 'gray alt_bg'
-BufferInactiveTarget = 'red alt_bg b'
+#[Buffer]
+#BufferCurrent = 'fg bg'
+#BufferCurrentIndex = 'fg bg'
+#BufferCurrentMod = 'info bg'
+#BufferCurrentSign = 'hint bg'
+#BufferCurrentTarget = 'red bg b'
+#
+#BufferVisible = 'fg bg'
+#BufferVisibleIndex = 'fg bg'
+#BufferVisibleMod = 'info bg'
+#BufferVisibleSign = 'gray bg'
+#BufferVisibleTarget = 'red bg b'
+#
+#BufferInactive = 'gray alt_bg'
+#BufferInactiveIndex = 'gray alt_bg'
+#BufferInactiveMod = 'info alt_bg'
+#BufferInactiveSign = 'gray alt_bg'
+#BufferInactiveTarget = 'red alt_bg b'
 
 [StatusLine]
-StatusLine = 'context bg'
+StatusLine = 'gray alt_bg'
 StatusLineNC = 'line bg'
 StatusLineSeparator = 'line'
 StatusLineTerm = 'line'
 StatusLineTermNC = 'line'
+
+[WinBar]
+WinBar = 'ui_blue'
+WinBarNC = 'light_gray'
+WinBarError = 'sign_delete'
 
 [IndentBlankline]
 IndentBlanklineContextChar = 'context'
@@ -433,10 +438,10 @@ IndentBlanklineChar = 'dark_gray'
 # IndentBlanklineSpaceCharBlankline = 'info'
 # IndentBlanklineSpaceChar = 'cyan_test'
 
-[Dashboard]
-DashboardHeader = 'blue'
-DashboardCenter = 'purple'
-DashboardFooter = 'cyan'
+#[Dashboard]
+#DashboardHeader = 'blue'
+#DashboardCenter = 'purple'
+#DashboardFooter = 'cyan'
 
 [DiffView]
 DiffViewNormal = 'gray alt_bg'
@@ -448,15 +453,15 @@ DiffviewFilePanelInsertion = 'sign_add'
 DiffviewFilePanelDeletion = 'sign_delete'
 DiffviewVertSplit = '- bg'
 
-[Bookmarks]
-BookmarkSign = 'sign_change'
-BookmarkAnnotationSign = 'yellow'
-BookmarkLine = 'ui2_blue'
-BookmarkAnnotationLine = 'ui2_blue'
+#[Bookmarks]
+#BookmarkSign = 'sign_change'
+#BookmarkAnnotationSign = 'yellow'
+#BookmarkLine = 'ui2_blue'
+#BookmarkAnnotationLine = 'ui2_blue'
 
-[Bqf]
-BqfPreviewBorder = 'fg'
-BqfPreviewRange = '- ui2_blue'
+#[Bqf]
+#BqfPreviewBorder = 'fg'
+#BqfPreviewRange = '- ui2_blue'
 # BqfPreviewFloat = 'fg'
 # BqfPreviewCursor = ''
 # BqfSign = ''
@@ -492,36 +497,36 @@ CmpItemKindReference = 'light_blue'
 CmpItemKindOperator = 'fg'
 CmpItemKindTypeParameter = 'light_blue'
 
-[Navic]
-NavicIconsFile = 'link:CmpItemKindFile'
-NavicIconsModule = 'link:CmpItemKindModule'
-NavicIconsNamespace = 'link:CmpItemKindModule'
-NavicIconsPackage = 'link:CmpItemKindModule'
-NavicIconsClass = 'link:CmpItemKindClass'
-NavicIconsMethod = 'link:CmpItemKindMethod'
-NavicIconsProperty = 'link:CmpItemKindProperty'
-NavicIconsField = 'link:CmpItemKindField'
-NavicIconsConstructor = 'link:CmpItemKindConstructor'
-NavicIconsEnum = 'link:CmpItemKindEnum'
-NavicIconsInterface = 'link:CmpItemKindInterface'
-NavicIconsFunction = 'link:CmpItemKindFunction'
-NavicIconsVariable = 'link:CmpItemKindVariable'
-NavicIconsConstant = 'link:CmpItemKindConstant'
-NavicIconsString = 'link:String'
-NavicIconsNumber = 'link:Number'
-NavicIconsBoolean = 'link:Boolean'
-NavicIconsArray = 'link:CmpItemKindClass'
-NavicIconsObject = 'link:CmpItemKindClass'
-NavicIconsKey = 'link:CmpItemKindKeyword'
-NavicIconsKeyword = 'link:CmpItemKindKeyword'
-NavicIconsNull = 'blue'
-NavicIconsEnumMember = 'link:CmpItemKindEnumMember'
-NavicIconsStruct = 'link:CmpItemKindStruct'
-NavicIconsEvent = 'link:CmpItemKindEvent'
-NavicIconsOperator = 'link:CmpItemKindOperator'
-NavicIconsTypeParameter = 'link:CmpItemKindTypeParameter'
-NavicText = 'gray'
-NavicSeparator = 'context'
+#[Navic]
+#NavicIconsFile = 'link:CmpItemKindFile'
+#NavicIconsModule = 'link:CmpItemKindModule'
+#NavicIconsNamespace = 'link:CmpItemKindModule'
+#NavicIconsPackage = 'link:CmpItemKindModule'
+#NavicIconsClass = 'link:CmpItemKindClass'
+#NavicIconsMethod = 'link:CmpItemKindMethod'
+#NavicIconsProperty = 'link:CmpItemKindProperty'
+#NavicIconsField = 'link:CmpItemKindField'
+#NavicIconsConstructor = 'link:CmpItemKindConstructor'
+#NavicIconsEnum = 'link:CmpItemKindEnum'
+#NavicIconsInterface = 'link:CmpItemKindInterface'
+#NavicIconsFunction = 'link:CmpItemKindFunction'
+#NavicIconsVariable = 'link:CmpItemKindVariable'
+#NavicIconsConstant = 'link:CmpItemKindConstant'
+#NavicIconsString = 'link:String'
+#NavicIconsNumber = 'link:Number'
+#NavicIconsBoolean = 'link:Boolean'
+#NavicIconsArray = 'link:CmpItemKindClass'
+#NavicIconsObject = 'link:CmpItemKindClass'
+#NavicIconsKey = 'link:CmpItemKindKeyword'
+#NavicIconsKeyword = 'link:CmpItemKindKeyword'
+#NavicIconsNull = 'blue'
+#NavicIconsEnumMember = 'link:CmpItemKindEnumMember'
+#NavicIconsStruct = 'link:CmpItemKindStruct'
+#NavicIconsEvent = 'link:CmpItemKindEvent'
+#NavicIconsOperator = 'link:CmpItemKindOperator'
+#NavicIconsTypeParameter = 'link:CmpItemKindTypeParameter'
+#NavicText = 'gray'
+#NavicSeparator = 'context'
 
 [Packer]
 packerString = 'ui_orange'
@@ -535,22 +540,22 @@ packerStatusSuccess = 'ui4_blue'
 SymbolsOutlineConnector = 'gray'
 FocusedSymbol = '- #36383F'
 
-[Notify]
-NotifyERRORBorder = '#8A1F1F'
-NotifyWARNBorder = '#79491D'
-NotifyINFOBorder = 'ui_blue'
-NotifyDEBUGBorder = 'gray'
-NotifyTRACEBorder = '#4F3552'
-NotifyERRORIcon = 'error'
-NotifyWARNIcon = 'warn'
-NotifyINFOIcon = 'ui4_blue'
-NotifyDEBUGIcon = 'gray'
-NotifyTRACEIcon = 'ui_purple'
-NotifyERRORTitle = 'error'
-NotifyWARNTitle = 'warn'
-NotifyINFOTitle = 'ui4_blue'
-NotifyDEBUGTitle = 'gray'
-NotifyTRACETitle = 'ui_purple'
+#[Notify]
+#NotifyERRORBorder = '#8A1F1F'
+#NotifyWARNBorder = '#79491D'
+#NotifyINFOBorder = 'ui_blue'
+#NotifyDEBUGBorder = 'gray'
+#NotifyTRACEBorder = '#4F3552'
+#NotifyERRORIcon = 'error'
+#NotifyWARNIcon = 'warn'
+#NotifyINFOIcon = 'ui4_blue'
+#NotifyDEBUGIcon = 'gray'
+#NotifyTRACEIcon = 'ui_purple'
+#NotifyERRORTitle = 'error'
+#NotifyWARNTitle = 'warn'
+#NotifyINFOTitle = 'ui4_blue'
+#NotifyDEBUGTitle = 'gray'
+#NotifyTRACETitle = 'ui_purple'
 # NotifyERRORBody = Normal
 # NotifyWARNBody = Normal
 # NotifyINFOBody = Normal
@@ -560,12 +565,12 @@ NotifyTRACETitle = 'ui_purple'
 [TreesitterContext]
 TreesitterContext = '- alt_bg'
 
-[Hop]
-HopNextKey = '#4ae0ff'
-HopNextKey1 = '#d44eed'
-HopNextKey2 = '#b42ecd'
-HopUnmatched = 'gray'
-HopPreview = '#c7ba7d'
+#[Hop]
+#HopNextKey = '#4ae0ff'
+#HopNextKey1 = '#d44eed'
+#HopNextKey2 = '#b42ecd'
+#HopUnmatched = 'gray'
+#HopPreview = '#c7ba7d'
 # HopCursor = ''
 
 [Crates]
