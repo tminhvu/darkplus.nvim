@@ -357,16 +357,16 @@ theme.set_highlights = function()
     -- hl(0, "BufferInactiveTarget", { fg = c.red, bg = c.alt_bg, bold = true, })
 
     -- StatusLine
-    hl(0, "StatusLine", { fg = c.gray, bg = c.alt_bg })
+    hl(0, "StatusLine", { fg = c.light_gray, bg = c.alt_bg, bold = true })
     hl(0, "StatusLineNC", { fg = c.line, bg = c.bg })
     hl(0, "StatusLineSeparator", { fg = c.line, bg = 'NONE' })
     hl(0, "StatusLineTerm", { fg = c.line, bg = 'NONE' })
     hl(0, "StatusLineTermNC", { fg = c.line, bg = 'NONE' })
 
     -- WinBar
-    hl(0, "WinBar", { fg = c.ui_blue, bg = 'NONE' })
-    hl(0, "WinBarNC", { fg = c.light_gray, bg = 'NONE' })
-    hl(0, "WinBarError", { fg = c.sign_delete, bg = 'NONE' })
+    hl(0, "WinBar", { fg = c.vivid_blue, bg = 'NONE', bold = true })
+    hl(0, "WinBarNC", { fg = c.gray, bg = 'NONE' })
+    hl(0, "WinBarError", { fg = c.error, bg = 'NONE', italic = true, bold = true })
 
     -- IndentBlankline
     hl(0, "IndentBlanklineContextChar", { fg = c.context, bg = 'NONE' })
